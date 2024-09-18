@@ -74,6 +74,18 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+			["terraformls"] = function()
+				nvim_lsp["terraformls"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+				})
+			end,
+			["lua_ls"] = function()
+				nvim_lsp["lua_ls"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+				})
+			end,
 		})
 	end,
 }

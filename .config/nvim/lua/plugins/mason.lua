@@ -17,6 +17,8 @@ return {
 				"pyright",
 				"tailwindcss",
 				"gopls",
+				"terraformls",
+				"lua_ls",
 			},
 		})
 
@@ -28,6 +30,8 @@ return {
 				"black", -- python formatter
 				"pylint",
 				"eslint_d",
+				"gopls",
+				"terraformls",
 			},
 		})
 	end,
