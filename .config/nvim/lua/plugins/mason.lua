@@ -19,6 +19,7 @@ return {
 				"gopls",
 				"terraformls",
 				"lua_ls",
+				"yamlls",
 			},
 		})
 

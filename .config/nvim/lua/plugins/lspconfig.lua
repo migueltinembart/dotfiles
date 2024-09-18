@@ -86,6 +86,12 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+			["yamlls"] = function()
+				nvim_lsp["yamlls"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+				})
+			end,
 		})
 	end,
 }

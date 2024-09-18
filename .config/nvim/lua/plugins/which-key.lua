@@ -1,7 +1,13 @@
 return {             -- Useful plugin to show you pending keybinds.
 	"folke/which-key.nvim",
 	event = "VimEnter", -- Sets the loading event to 'VimEnter'
+
 	opts = {
+		triggers = {
+			{ "<leader>", { mode = "n" } },
+			{ "f",        { mode = "n" } },
+			{ "l",        { mode = "n" } },
+		},
 		icons = {
 			-- set icon mappings to true if you have a Nerd Font
 			mappings = vim.g.have_nerd_font,
@@ -38,7 +44,6 @@ return {             -- Useful plugin to show you pending keybinds.
 				F12 = "<F12>",
 			},
 		},
-
 		spec = {
 			{ "<leader>c", group = "[C]ode",     mode = { "n", "x" } },
 			{ "<leader>d", group = "[D]ocument" },
