@@ -7,6 +7,7 @@ return {             -- Useful plugin to show you pending keybinds.
 			{ "<leader>", { mode = "n" } },
 			{ "f",        { mode = "n" } },
 			{ "l",        { mode = "n" } },
+			{ "g",        { mode = "n" } },
 		},
 		icons = {
 			-- set icon mappings to true if you have a Nerd Font
