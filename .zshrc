@@ -114,3 +114,6 @@ export NVM_DIR="$HOME/.nvm"
 
 alias python=python3
 alias pip=pip3
+
+# Created by `pipx` on 2024-09-25 06:32:24
+export PATH="$PATH:/Users/migueltinembart/.local/bin"
