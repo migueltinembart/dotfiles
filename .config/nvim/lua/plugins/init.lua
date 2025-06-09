@@ -13,6 +13,10 @@ return {
     end,
   },
 
+  {
+    "b0o/schemastore.nvim"
+  }
+
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
